@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 9rem;
+  color:  #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color:  #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  /* line-h?e?Sight: 2; */
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 2rem;
+}
+p{
+  font-size: 1.5rem;
+  color: #40514e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+}
+
+.pro {
+  text-decoration: underline;
+  /* margin-right: 0; */
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+a{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row img {
+  width: 25%;
+}
+
+.computer-img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 3rem;
+}
+
+.chillies-img{
+float: right;
+margin-left: 3rem;
+}
+/* .code-skill-description{
+  clear: left;
+}
+.chillies-skill-description{
+  clear: right;
+} */
+.skills{
+  margin: 3rem;
+}
+.profile{
+  margin: 8rem;
+}
+.profile img {
+  width: 25%;
+}
+
+hr {
+  /* color: #eaf6f6; */
+  border-top: 5px dotted #eaf6f6;
+  width: 5rem;
+
+}
+.bottom-container{
+background-color: #66bfbf;
+}
+.footer{
+  color: #eaf6f6;;
+}
+
+.skills{
+  margin: 8rem;
+}
+
+.contact-me{
+  margin: 8rem;
+  line-height: 2;
+}
+
+.btn{
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 1rem;
+
+}
